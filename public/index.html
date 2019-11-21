@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Games</title>
+    <title>Jokes</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="myjava.js"></script>
+    <link rel="stylesheet" href="mycss.css">
 </head>
 <body>
                 <nav class="navbar navbar-dark bg-dark">
                         <a class="navbar-brand mx-auto" href="#">Home</a>
-                        <a class="navbar-brand mx-auto" href="#">Games</a>
+                        <a class="navbar-brand mx-auto" href="#">Jokes</a>
                         <a class="navbar-brand mx-auto" href="#">About</a>
                  </nav>
 
@@ -22,7 +23,7 @@
             This is our Chuck Norris Joke
           </div>
           <div class="col">
-           This is our top 5 games
+           This is our Dad Joke
           </div>
         </div>
     </div>
@@ -31,11 +32,13 @@
           <div class="col">
             <div id="ChuckNorris">New Joke</div>
             <div class="col">
-                    <button class="btn btn-dark" onclick=myFunction()>Click me to get a joke</button>
+                    <button class="btn btn-dark" onclick=myChuckJoke()>Click me to get a Chuck joke</button>
               </div>
           </div>
           <div class="col">
-           Number 1
+              <div class="col">
+                <div id="DadJoke">New Joke</div>
+            <button class="btn btn-dark" onclick=myDadJoke()>Click me to get a Dad joke</button>
           </div>
         </div>
     </div>
